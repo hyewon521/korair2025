@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* 로그인 서식 */
+.loginbox {
+  background-color: #ffffff;
+  line-height: 40px;
+  border-radius: 30px;
+  height: 100%;
+  margin: 0px 3% 0px 3%;
+  font-size: 0.8rem;
+}
+.loginbox > div > ul {
+  border-bottom: 1px solid #333333;
+  text-align: center;
+  padding-top: 30px;
+}
+.loginbox > div > ul > li {
+  padding:4rem;
+  display: inline;
+  font-weight: bold; font-size: 1rem;
+  text-align: center;
+}
+
+.loginbox > .l_btn {
+  background-color: #121368;
+  border-radius: 10px;
+  margin: 5%; 
+  padding:1% 0 1% 0;
+  color:#ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.loginbox > .sns img{
+  display: inline-block;
+}
